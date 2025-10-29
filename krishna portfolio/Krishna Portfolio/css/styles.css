@@ -4149,6 +4149,14 @@ img.u-pull-left {
         width: 4.8rem;
     }
 }
+ .folio-item__thumb img {
+        border-radius: 12px;
+        transition: transform 0.3s ease;
+    }
+
+    .folio-item__thumb:hover img {
+        transform: scale(1.05);
+    }
 
 @media screen and (max-width: 400px) {
     .ss-go-top {
